@@ -27,5 +27,5 @@ Ich habe in den Einstellungen der VM 65000 MB RAM zugeschrieben und bekam diesen
 ![Zu viele RAM Bild](zu-viele-ram.jpg)
 
 ### Endresultat
-fHyper-V-Manager ist ein Hypervisor Typ 1, weil 
+Hyper-V-Manager ist ein Hypervisor Typ 1, weil ich in den Einstellungen der Hardware Resourcen nicht das Limit von meinem Host-System überschreiten darf.
 
