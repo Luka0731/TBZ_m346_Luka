@@ -3,10 +3,10 @@
 ## B) Instanz erstellen
 ![Instances](images/instances.jpg)
 Einstellungen:
-- Diskgrösse: -
+- Diskgrösse: 8 GB
 - Betriebssystem: Linux/UNIX
-- Grösse des RAM: -
-- Anzahl der CPUs: 1
+- Grösse des RAM: 1 GB
+- Anzahl der CPUs: 1 
 
 ## C) Zugriff mit SSH-Key
 Trying to connect with the right private key
