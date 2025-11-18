@@ -28,4 +28,3 @@ Ich habe in den Einstellungen der VM 65000 MB RAM zugeschrieben und bekam diesen
 
 ### Endresultat
 Hyper-V-Manager ist ein Hypervisor Typ 1, weil ich in den Einstellungen der Hardware Resourcen nicht das Limit von meinem Host-System überschreiten darf.
-
