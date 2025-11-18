@@ -20,11 +20,11 @@ Host-System CPU: 14 Kerne, 20 Logische Prozessoren
 
 #### Schrit 3
 Ich habe in den Einstellungen der VM 1024 Logische Prozessoren zugeschrieben und bekam diesen Errorcode beim starten:
-![Zu viele Prozessoren Bild](zu-viele-prozessoren.jpg)
+![Zu viele Prozessoren Bild](images/zu-viele-prozessoren.jpg)
 
 #### Schrit 4
 Ich habe in den Einstellungen der VM 65000 MB RAM zugeschrieben und bekam diesen Errorcode beim starten:
-![Zu viele RAM Bild](zu-viele-ram.jpg)
+![Zu viele RAM Bild](images/zu-viele-ram.jpg)
 
 ### Endresultat
 Hyper-V-Manager ist ein Hypervisor Typ 1, weil ich in den Einstellungen der Hardware Resourcen nicht das Limit von meinem Host-System überschreiten darf.

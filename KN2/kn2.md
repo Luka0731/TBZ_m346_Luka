@@ -1,7 +1,7 @@
 # KN2
 
 ## B) Instanz erstellen
-![Instances](instances.jpg)
+![Instances](images/instances.jpg)
 Einstellungen:
 - Diskgrösse: -
 - Betriebssystem: Linux/UNIX
@@ -10,10 +10,10 @@ Einstellungen:
 
 ## C) Zugriff mit SSH-Key
 Trying to connect with the right private key
-![Instances](right-key.jpg)
+![Instances](images/right-key.jpg)
 
 Trying to connect with the wrong private key
-![Instances](wrong-key.jpg)
+![Instances](images/wrong-key.jpg)
 
 Der Verwendete Schlüssel in der Instanz
-![Instances](used-key-in-instance.jpg)
+![Instances](images/used-key-in-instance.jpg)
