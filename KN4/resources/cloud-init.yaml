@@ -1,0 +1,14 @@
+#cloud-config
+users: # Definiert einen Benutzer
+  - name: ubuntu # Benutzername
+    groups: [users, admin] # Fügt zu Gruppen (sozusagen wir Rollen) zum User hinzu
+    shell: /bin/bash # Setzt Shell auf Bash
+    sudo: ALL=(ALL) NOPASSWD:ALL # Machte es, dass der Benutzer kein Passwort eingeben muss bei allen sudo befehlen
+    ssh_authorized_keys: # Liste von authorisierten public keys
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCWFdJI99AOWFeQVRz5jl/XFnHpgkFEp/Hr/jASjxxtyDTzd49SG6xV5WHhHyAYFlCspCaX1qnwxBMwGPzAmlXUQzXIZhNYLTGbA+y3wzUuB1H71WIaWsy8YS2T+m5b28a2mn4X5ZibXUsw4/lmKyiZnz53hE/BGllr7O9t/5ry5x+mYtbUQO0dSPrTPiZ7csbTIH9Z63U7YRM9ct/9hzscT8/UaZoc35I/8Qf8/mwBuZNGuwCFTKV4sSPcQqk9G5GgpELKaVWOq0fMF3wvmstN6FTXl3iwYSWYMIZpM3e+BpkRycAf6tnFtrsD5YItJpIeiCWn5Y/zD0sd4jdtClL aws-key
+ssh_pwauth: false # Man braucht kein Passwort wenn man sich über SSH verbindet
+disable_root: false # Root account bleibt aktiv (normalerweise wird deaktiviert)
+package_update: true # Mach ein Update der Paketliste
+packages: # Liste von Packeten die automatisch heruntergeladen werden
+  - curl # Tool für HTTP-Request
+  - wget # Tool zum Herunterladen von Daten
